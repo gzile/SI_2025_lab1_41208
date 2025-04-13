@@ -1,0 +1,15 @@
+*   c887aa0 Merge Conflicts
+|\  
+| * 66257e8 Implement list tasks sorted by name
+* |   69f9345 Merge pull request #12 from gzile/7-count-tasks-per-category
+|\ \  
+| * | f4add44 Merge conflicts
+|/ /  
+* |   517a5ad Merge pull request #10 from gzile/1-remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * 8f0f20c Implement remove task by name
+|/  
+* 61da635 Add starter code
+* edb2805 Initial commit

@@ -1,0 +1,37 @@
+
+git fetch origin
+git checkout 1-remove-a-task-by-name
+git add .
+git commit -m "Implement remove task by name"
+git push origin 1-remove-a-task-by-name
+
+git checkout 3-list-tasks-sorted-by-name
+git add .
+git commit -m "Implement list tasks sorted by name"
+git push origin 3-list-tasks-sorted-by-name
+
+git checkout 7-count-tasks-per-category
+git add .
+git commit -m "Implement count tasks per category by name"
+git push origin 7-count-tasks-per-category
+
+git add 41208.txt
+git commit -m "Add documentation txt"
+git push origin 7-count-tasks-per-category
+
+git checkout master
+git pull origin master
+
+git checkout 7-count-tasks-per-category
+git rebase master
+git add SI2025Lab1Main.java
+git commit -m "Merge conflicts"
+git rebase --continue
+git push -f
+
+git checkout master
+git pull
+git merge 3-list-tasks-sorted-by-name
+git add SI2025Lab1Main.java
+git commit -m "Merge Conflicts"
+git push origin master
